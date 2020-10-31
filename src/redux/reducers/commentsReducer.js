@@ -31,7 +31,6 @@ const commentsReducer = (state = initialState.comments, action) => {
         error: null,
       };
       
-
     case commentsConstants.DELETE_COMMENT_START:
       return {
         ...state,

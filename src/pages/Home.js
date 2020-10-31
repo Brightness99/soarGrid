@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AgGridColumn, AgGridReact } from 'ag-grid-react';
 import { useDispatch, useSelector } from "react-redux";
-import { CommentsModal, Loader } from '../components';
+import { CommentsModal } from '../components';
 import { getPosts } from '../redux/actions';
 
 const Home = () => {
